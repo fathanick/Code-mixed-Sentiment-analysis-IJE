@@ -1,0 +1,77 @@
+## HP Tuning
+
+#1 fathan/indojave-codemixed-bert-base
+
+python hp_tuning_ije_sa.py \
+--model_name fathan/indojave-codemixed-bert-base \
+--output_dir best_parameters \
+--num_trials 5 \
+--save_best_params best_parameters/indojave-cm-bert.json
+
+#2 fathan/indojave-codemixed-indobert-base
+
+python hp_tuning_ije_sa.py \
+--model_name fathan/indojave-codemixed-indobert-base \
+--output_dir best_parameters \
+--num_trials 5 \
+--save_best_params best_parameters/indojave-cm-indobert.json
+
+
+#3 fathan/indojave-codemixed-indobertweet-base
+
+python hp_tuning_ije_sa.py \
+--model_name fathan/indojave-codemixed-indobertweet-base \
+--output_dir best_parameters \
+--num_trials 5 \
+--save_best_params best_parameters/indojave-cm-indobertweet.json
+
+
+#4 fathan/indojave-codemixed-roberta-base
+
+python hp_tuning_ije_sa.py \
+--model_name fathan/indojave-codemixed-roberta-base \
+--output_dir best_parameters \
+--num_trials 5 \
+--save_best_params best_parameters/indojave-cm-roberta.json
+
+
+#5 indolem/indobert-base-uncased
+
+python hp_tuning_ije_sa.py \
+--model_name indolem/indobert-base-uncased \
+--output_dir best_parameters \
+--num_trials 5 \
+--save_best_params best_parameters/indobert.json
+
+
+#6 indolem/indobertweet-base-uncased
+
+python hp_tuning_ije_sa.py \
+--model_name indolem/indobertweet-base-uncased \
+--output_dir best_parameters \
+--num_trials 5 \
+--save_best_params best_parameters/indobertweet.json
+
+#7 bert-base-multilingual-uncased
+
+python hp_tuning_ije_sa.py \
+--model_name bert-base-multilingual-uncased \
+--output_dir best_parameters \
+--num_trials 5 \
+--save_best_params best_parameters/mbert.json
+
+#8 xlm-roberta-base
+
+python hp_tuning_ije_sa.py \
+--model_name xlm-roberta-base \
+--output_dir best_parameters \
+--num_trials 5 \
+--save_best_params best_parameters/xlm-roberta.json
+
+#9 distilbert-base-multilingual-cased
+
+python hp_tuning_ije_sa.py \
+--model_name distilbert-base-multilingual-cased \
+--output_dir best_parameters \
+--num_trials 5 \
+--save_best_params best_parameters/distilmbert.json
